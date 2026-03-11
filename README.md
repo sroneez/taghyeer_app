@@ -140,5 +140,5 @@ lib/
 ## Notes
 
 - Minimum SDK: Flutter 3.x / Dart 3.x
-- Tested on a physical **iOS device**
+- Tested on a Simulator **iOS device**
 - No flavor configuration required — single environment pointing to `https://dummyjson.com`
