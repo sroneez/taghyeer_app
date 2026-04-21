@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
               },
               builder: (context, authState) {
                 if (authState is AuthInitial) {
+                  //ci cd added
                   return const Scaffold(
                     body: Center(child: CircularProgressIndicator()),
                   );
