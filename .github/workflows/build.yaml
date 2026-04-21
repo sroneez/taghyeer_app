@@ -31,3 +31,10 @@ jobs:
 
       - name: Build flutter APK
         run: flutter build apk --release
+
+        # Automatic APK upload to that specific location
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Taghyeer-App-Release-Apk
+          path: build/app/outputs/flutter-apk/app-release.apk
