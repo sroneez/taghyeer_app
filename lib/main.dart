@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
                   );
                 } else if (authState is AuthAuthenticated) {
                   return const MainDashboardPage();
-                } else {)
+                } else {
                   return const LoginPage();
                 }
               },
