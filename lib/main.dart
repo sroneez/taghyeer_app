@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                   return const Scaffold(
                     body: Center(child: CircularProgressIndicator()),
                   );
-                } else if (authState is AuthAuthenticated) {
+                } else if (authState is AuthAuthenticated) {}
                   return const MainDashboardPage();
                 } else {
                   return const LoginPage();
