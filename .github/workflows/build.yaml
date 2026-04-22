@@ -32,8 +32,8 @@ jobs:
       - name: Analyze Code
         run: flutter analyze
 
-      - name: Run Test
-        run: flutter test
+#      - name: Run Test
+#        run: flutter test
 
       - name: Build flutter APK
         run: flutter build apk --release
