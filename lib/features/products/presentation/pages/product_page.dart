@@ -94,7 +94,7 @@ class _ProductsPageState extends State<ProductsPage> {
                       width: 60,
                       height: 60,
                       fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => const Icon(Icons.image_not_supported),
+                      errorBuilder: (_, _, _) => const Icon(Icons.image_not_supported),
                     ),
                   ),
                   title: Text(

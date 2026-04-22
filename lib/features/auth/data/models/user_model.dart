@@ -1,3 +1,5 @@
+// ignore_for_file: overridden_fields, annotate_overrides
+
 import 'package:hive/hive.dart';
 import '../../domain/entities/user.dart';
 
@@ -7,16 +9,23 @@ part 'user_model.g.dart';
 class UserModel extends User {
   @HiveField(0)
   final int id;
+
+
   @HiveField(1)
   final String username;
+
   @HiveField(2)
   final String email;
+
   @HiveField(3)
   final String firstName;
+
   @HiveField(4)
   final String lastName;
+
   @HiveField(5)
   final String image;
+
   @HiveField(6)
   final String token;
 

@@ -44,6 +44,7 @@ dependencies:
   hive_flutter: ^1.1.0
   logger: ^2.6.2
   mime_type: ^1.0.1
+  http_parser: ^4.1.2
 
 dev_dependencies:
   flutter_test:
